@@ -16,19 +16,19 @@ using System.Windows.Shapes;
 namespace waibao01
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// count.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CountPage : Page
     {
-        public MainWindow()
+        public CountPage()
         {
             InitializeComponent();
+
         }
 
-        private void frame_Initialized(object sender, EventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            CountPage page = new CountPage();
-            frame.Content = page;
+            MessageBox.Show("hello");
         }
     }
 }

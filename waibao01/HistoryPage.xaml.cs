@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace waibao01
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// HistoryPage.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class HistoryPage : Page
     {
-        public MainWindow()
+        public HistoryPage()
         {
             InitializeComponent();
-        }
-
-        private void frame_Initialized(object sender, EventArgs e)
-        {
-            CountPage page = new CountPage();
-            frame.Content = page;
         }
     }
 }

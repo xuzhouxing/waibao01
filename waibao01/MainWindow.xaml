@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:waibao01"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid x:Name="MainWindow1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="76*"/>
+            <ColumnDefinition Width="221*"/>
+            <ColumnDefinition Width="171*"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="300" Margin="0,10,0,0" VerticalAlignment="Top" Width="517" Grid.ColumnSpan="4" Initialized="frame_Initialized"/>
+
     </Grid>
 </Window>
